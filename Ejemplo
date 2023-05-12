@@ -1,1 +1,28 @@
+interface Enviable{
+  String getDatos();
+}
 
+class Mailer{
+static void send(){
+System.out.println("Enviando email:");
+}
+}
+
+class Puntuacion{
+int puntos;
+
+  @Override
+  public String getDatos(){
+  return "Puntos" + puntos;
+  }
+}
+
+class perro {
+string raza;
+}
+
+public class Main{
+  public static void main(String args[]){
+  Mailer.send(new Perro());
+  }
+}
