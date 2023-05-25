@@ -1,4 +1,4 @@
-# Diagrama de classes
+/*# Diagrama de classes
 
 ## Animales
 
@@ -27,17 +27,15 @@ Class estudiante {
 
 ```mermaid
 classDiagram
-class Perro{
-  +String raza
-  +morder(cosa: String): String
+
+class estudent{
+void notas()*
 }
 
-class Animal{
-void sonar()*
-}
+Estudiante <-- Notas
+```*/
 
-Animal <-- Perro
-```
+
 
 /*# Diagrama de classes
 
